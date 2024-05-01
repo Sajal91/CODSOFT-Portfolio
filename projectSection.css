@@ -1,0 +1,45 @@
+.project-section {
+    padding-bottom: 6rem;
+    padding-inline: 20%;
+}
+
+#carouselExample {
+    width: 100%; 
+    margin-inline: auto;
+    justify-content: center;
+    padding-inline: 5%;
+}
+
+.project-section .card {
+    width: 80%;
+    height: inherit;
+    margin-inline: auto; 
+    background-color: black;
+}
+
+.carousel-item .card img {
+    height: 16rem;
+}
+
+@media (max-width: 750px) {
+    /* #carouselExample {
+        display: none;
+    } */
+}
+
+
+@media (max-width: 990px) {
+    .project-section .card {
+        width: 80%;
+    }
+    .project-section {
+        padding-bottom: 7rem;
+        padding-inline: 10%;
+    }
+}
+
+@media (max-width: 800px) {
+    .project-section {
+        padding-inline: 0%;
+    }
+}

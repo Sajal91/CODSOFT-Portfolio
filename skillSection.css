@@ -1,0 +1,34 @@
+.skills-section {
+    padding-bottom: 14rem;
+}
+
+.skill-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skill-cards-container .card {
+    background-color: rgb(3, 25, 59);
+    width: 14rem;
+}
+
+.skill-cards-container .card img {
+    height: 10rem;
+}
+
+.skill-cards-container .card .card-body h5 {
+    text-align: center;
+}
+
+.skill-cards-container .card .card-body p {
+    text-align: justify;
+}
+
+@media (max-width: 990px) {
+    .skills-section {
+        padding-bottom: 7rem;
+    }
+}

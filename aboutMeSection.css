@@ -1,0 +1,51 @@
+.about-avatar-holder, .about-avatar-holder img {
+    height: 20rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 14rem;
+}
+
+.about-text-area {
+    width: 35rem;
+}
+
+.about-text-area p {
+    margin-top: 1rem;
+}
+
+.about-text-area h1 span {
+    color: #0D6EFD !important;
+}
+
+.about-avatar-holder img {
+    border: 0.3rem solid #0D6EFD;
+}
+
+.accordion * {
+    color: black !important;
+}
+
+@media (max-width: 990px) {
+    .about-section {
+        padding-bottom: 4rem;
+    }
+}
+
+
+@media (max-width: 1150px) {
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    .about-text-area {
+        width: auto;
+    }
+}
