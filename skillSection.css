@@ -13,6 +13,7 @@
 .skill-cards-container .card {
     background-color: rgb(3, 25, 59);
     width: 14rem;
+    border: none !important;
 }
 
 .skill-cards-container .card img {
@@ -25,6 +26,12 @@
 
 .skill-cards-container .card .card-body p {
     text-align: justify;
+}
+
+.skill-cards-container .card:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 @media (max-width: 990px) {

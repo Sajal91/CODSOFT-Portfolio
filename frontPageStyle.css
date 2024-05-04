@@ -67,6 +67,11 @@ nav a, nav li {
     border: 0.3rem solid #0D6EFD;
 }
 
+.btn-outline-light:hover {
+    color: black !important;
+    font-weight: 500;
+}
+
 @media (max-width: 990px) {
     .front-page-description {
         display: flex;
